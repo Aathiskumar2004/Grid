@@ -1,0 +1,33 @@
+body{
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.container-grid{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-1{
+    grid-row: span 2;
+}
+.box-2{
+    grid-row: span 3;
+}
